@@ -1,0 +1,253 @@
+{ /*A Must*/
+    padding: 0;
+    margin:0;
+    text-align:center;
+}
+#Ao{
+    margin:0;
+    padding:0;
+    animation:bgcolor infinite 22s;
+}
+#Bo{
+    margin:0;
+    padding:0;
+    border:0;
+}
+@keyframes bgcolor{
+    0%
+    { background:#e74c3c; }
+    20%
+    { background:#2980e9; }
+    40%
+    { background:#f1c40f; }
+    60%
+    { background:#8e44ad;}
+    80%
+    { background:#34495e;}
+   100%
+    { background:#e74c3c;}
+}
+
+#Me{
+    margin-right:80px;
+    margin-top:95px;
+    width:320px;
+    height:320px;
+    float:right;
+}
+h2{
+    color:rgb(173, 82, 28)
+    text-align:center;
+    margin-bottom:20px;
+    font-size:30px;
+    text-align:center;
+    font-family:Tahoma;
+}
+
+h5{
+    color:white;
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:20px;
+    font-size:35px;
+    text-align:center;
+    font-family:Tahoma;
+}
+
+h6{
+    margin:5px;
+    height:20px;
+    font-family:sans-serif;  /*字體*/
+    font-size:20px; /*字大小*/
+    font-weight: bold; /*幾粗*/
+    color:white;
+    text-align:left;
+}
+
+p{
+    margin:5px;
+    height:20px;
+    font-family:sans-serif;  /*字體*/
+    font-size:20px; /*字大小*/
+    font-weight: bold; /*幾粗*/
+    color:black;
+    text-align:left;
+}
+header{
+    width:1410px;
+    float:left;
+    height:500px;
+    border:0;
+    margin:5px;
+    background-color:rgb(226, 226, 65);
+}
+.row-A{
+    height:520px;
+    background-image: url(https://upload.cc/i1/2020/08/21/6qX30a.jpg); 
+    background-size:cover;
+    background-width:1410px;
+    border:solid 4px blueviolet;
+    width:1410px;
+    float:left;
+}
+#one{ 
+    /*框*/
+    width: 500px;
+    height:140px;
+    margin-top:150px;
+    margin-left:20px;
+    border:solid 2px black;
+    margin-bottom:5px;
+    background-color:lightcyan;
+}
+ul{
+    list-style-type:square;
+    margin:10px;
+}
+#two{
+    width: 500px;
+    height:120px;
+ margin-left:20px;
+    margin-bottom:5px;
+    margin-top:270px;
+    border:solid 2px black;
+    background-color:lightcyan;
+}
+h4{
+    color:rgb(173, 82, 28)
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:5px;
+ 
+    font-size:35px;
+    text-align:center;
+    font-family:Tahoma;
+}
+
+.row-B{
+    width:1410px;
+    height:465px;
+    font-size:20px;
+    background-color:rgb(66, 105, 235);
+    text-align:left;
+}
+h1{
+    padding:150px;
+    font-family:Tahoma;
+    color:rgb(235, 234, 240);
+    font-size:50px;
+    font-weight:350;
+    letter-spacing:3px;
+    text-align:center;
+}
+
+.row-C {
+    height:350px;
+    margin:5px;
+    border:0px;
+    width:1410px;
+    float:left;
+    background-color:rgb(226, 226, 65);
+    
+}
+.info{
+    padding:50px;
+    color:white;
+    margin-bottom:15px;
+}
+
+input:required{
+    background-color: whitesmoke;
+}
+fieldset{
+    border:0;
+    margin:0;
+    padding:0;
+}
+.action{
+    padding:0;
+    border:0;
+    margin-top:5px;
+    width:315px;
+    background-color:rgb(161,95,90);
+    color:rgb(237,184,180);
+}
+.button{
+    padding:20px;
+    border:20px;
+    margin:10px;;
+}
+.row-E
+{
+text-align:center;
+margin:0;
+border:5px;
+float:left;
+background-color:rgba(117, 45,40,0.9);
+width:1410px;
+height:850px;
+
+}
+.Hobby{
+    width:100%;
+}
+
+.grid{
+    margin:0;
+    border:0;
+    padding:0;
+    }
+.box{
+    width:330px;
+        display:inline-block;
+        margin: 60px;
+        margin-top:15px;
+        position:center;
+        vertical-align: top;
+        box-sizing:bord-box;
+        vertical-align: baseline;
+    }
+h3{
+    margin-left:30px;
+    font-size:25px;
+    position:center;
+    font-family:Tahoma;
+    text-align:center;
+    font-family:Tahoma;
+}
+
+#Aven{
+    margin:30px;
+    width:400px;
+    height:290px;
+    border-radius: 5px; 
+    max-width: 100%;  
+    float:left;
+}
+#Bat{
+margin:30px;
+width:400px;
+height:290px;
+border-radius: 5px;
+max-width: 100%;
+float:left;
+}
+#Ghi{
+margin:30px;
+width:400px;
+height:290px;
+border-radius: 5px;
+max-width: 100%;
+float:left;
+}
+.pc{
+    margin-left:30px;
+    text-align:center;
+}
+footer{
+    clear:both;
+    border:15px;
+    margin-left:30px;
+    margin-bottom:20px;
+    display:inline-block;
+}
